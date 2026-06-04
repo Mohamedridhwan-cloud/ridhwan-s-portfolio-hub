@@ -133,11 +133,12 @@
 @utility btn-glow {
   box-shadow: var(--shadow-glow);
   transition: transform .2s ease, box-shadow .3s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 80px -8px color-mix(in oklab, var(--cyan) 70%, transparent);
+  }
 }
-@utility btn-glow:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 80px -8px color-mix(in oklab, var(--cyan) 70%, transparent);
-}
+
 
 @keyframes blink { 50% { opacity: 0; } }
 @utility caret {
