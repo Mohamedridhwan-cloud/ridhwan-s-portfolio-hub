@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Download, Mail, FolderGit2, Github, Linkedin, Twitter, Instagram } from "lucide-react";
-import portrait from "@/assets/hero-portrait.jpg";
+import portraitAsset from "@/assets/hero-portrait.jpg.asset.json";
+const portrait = portraitAsset.url;
 import { PROFILE } from "@/lib/portfolio-data";
 
 function useTyping(words: string[]) {
