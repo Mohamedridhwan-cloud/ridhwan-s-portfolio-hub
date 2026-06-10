@@ -7,7 +7,7 @@ export const PROFILE = {
   name: "Mohamed Ridhwan",
   title: "Computer Science Engineer | Cloud Computing Student",
   location: "Chennai, India",
-  email: "mohamedridhwan@example.com",
+  email: "mohdridhridhwan@gmail.com",
   resumeUrl: "/resume.pdf",
   socials: {
     github: "https://github.com/",
