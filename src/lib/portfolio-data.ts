@@ -98,14 +98,16 @@ export type Project = {
   category: "Machine Learning" | "Web Development" | "AI / NLP" | "Full Stack";
 };
 
+const GITHUB_PROFILE = "https://github.com/Mohamedridhwan-cloud";
+
 export const PROJECTS: Project[] = [
   {
     title: "Crop Yield Prediction Using ML",
     description:
       "Predict agricultural crop yield using machine learning algorithms and data analytics across regional datasets.",
     technologies: ["Python", "Scikit-Learn", "Pandas", "ML"],
-    github: "https://github.com/",
-    demo: "#",
+    github: GITHUB_PROFILE,
+    demo: GITHUB_PROFILE,
     image: crop,
     category: "Machine Learning",
   },
@@ -114,8 +116,8 @@ export const PROJECTS: Project[] = [
     description:
       "CRUD-based restaurant management application for managing reservations, menu items, and customer records.",
     technologies: ["HTML", "CSS", "JavaScript", "SQL"],
-    github: "https://github.com/",
-    demo: "#",
+    github: GITHUB_PROFILE,
+    demo: GITHUB_PROFILE,
     image: restaurant,
     category: "Web Development",
   },
@@ -124,8 +126,8 @@ export const PROJECTS: Project[] = [
     description:
       "Chatbot capable of handling user queries using Natural Language Processing techniques and NLTK.",
     technologies: ["Python", "NLP", "NLTK"],
-    github: "https://github.com/",
-    demo: "#",
+    github: GITHUB_PROFILE,
+    demo: GITHUB_PROFILE,
     image: chatbot,
     category: "AI / NLP",
   },
@@ -134,8 +136,8 @@ export const PROJECTS: Project[] = [
     description:
       "Responsive full-stack portfolio website showcasing skills, projects and contact form with database integration.",
     technologies: ["React.js", "Node.js", "MongoDB"],
-    github: "https://github.com/",
-    demo: "#",
+    github: GITHUB_PROFILE,
+    demo: "https://port-pivot-pulse.lovable.app",
     image: portfolio,
     category: "Full Stack",
   },
